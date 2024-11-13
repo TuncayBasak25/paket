@@ -2,7 +2,9 @@
   "name": "paket",
   "version": "1.0.0",
   "description": "Cli tool to automate typescript projects.",
-  "bin": "node paket.js",
+  "bin": {
+    "paket": "node paket.js"
+  },
   "author": "Tuncay Basak",
   "license": "MIT"
 }
