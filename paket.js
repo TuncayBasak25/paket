@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 function main() {
     const args = process.argv.slice(2);
