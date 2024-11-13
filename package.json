@@ -1,0 +1,10 @@
+{
+  "name": "paket",
+  "version": "1.0.0",
+  "description": "Cli tool to automate typescript projects.",
+  "scripts": {
+    "publish": "node scripts/publish.js"
+  },
+  "author": "Tuncay Basak",
+  "license": "MIT"
+}
