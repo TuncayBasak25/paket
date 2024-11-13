@@ -1,11 +1,14 @@
 "use strict";
-const args = process.argv.slice(2);
-const command = args.shift();
-if (!command) {
-    console.log("Command list");
-    process.exit();
+function main() {
+    const args = process.argv.slice(2);
+    const command = args.shift();
+    if (!command) {
+        console.log("Command list");
+        process.exit();
+    }
+    Command.exec(command, args);
 }
-Command.exec(command, args);
+setTimeout(main, 0);
 var Command;
 (function (Command) {
     function exec(command, args) {
